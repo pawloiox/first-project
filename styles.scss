@@ -18,6 +18,9 @@
   cursor: pointer;
   &:hover {
     background-color: purple;
+    .menu-hover {
+      display: block;
+    }
   }
 }
 @media (min-width: 900px) {
@@ -36,5 +39,20 @@
     padding: 10px;
     border: none;
     border-right: 1px solid black;
+  }
+  .menu-hover {
+    width: 100%;
+    height: 50px;
+    border: solid black;
+    position: fixed;
+    top: 38px;
+    display: none;
+    left: 0;
+  }
+}
+@keyframes identifier {
+  from {
+  }
+  to {
   }
 }
